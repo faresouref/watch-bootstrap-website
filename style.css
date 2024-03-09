@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px 30px;
+    box-shadow: 0 10px 15px rgba(20, 20, 20, 0.1);
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: rgb(5,5,5);
+    transition: all 1s ease;
+
+}
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: rgba(255, 0, 0, 0.507);
+    font-size: 1.2rem;
+}
+
+
+
+.firstsection{
+
+    background-color: rgb(234, 232, 231);
+}
+
+.firstsection .container1{
+    margin-top: 70px;
+}
+
+.firstsection .container .row1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.firstsection .container .row1 h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+
+.outer {
+    margin: 50px;
+  }
+  
+  .button {
+    border-radius: 3px;
+    width: 150px;
+    height: 40px;
+    display: block;
+  
+    background: linear-gradient(to right, rgb(76, 65, 65) 50%, rgb(239, 2, 2) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+  }
+  
+  .button:hover {
+    background-position: left bottom;
+  }
+  
+  .text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px; 
+    color: rgb(255, 255, 255);
+    transition: all .6s ease-out;
+    display: block;
+  }
+  
+  .text:hover {
+cursor: pointer; 
+}
+
+
+
+
+
+
+.section2 .row2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 .row2 .mycard{
+    margin-right: 10px;
+}
+
+.section2 .row2 .mycard p{
+    color: red;
+    font-size: 1.6rem;
+}
+
+
+
+.section3{
+    margin-bottom: 200px;
+}
+
+
+
+
+
+
+.section3 .row .elem .elem1{
+    width: 50%;
+
+}
+.section3 .row .elem2 img{
+    width: 20px;
+
+}
+
+
+
+
+
+.gallery .container-fluid {
+    padding: 0;
+    overflow: hidden;
+}
+
+.gallery .single-gallery {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.gallery .single-gallery .big-img {
+    height: 690px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.gallery .single-gallery .small-img {
+    height: 330px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery .row .gallery-img {
+    transform: scale(1.06);
+    transition: all 0.5s ease;
+
+}
+.gallery .row .gallery-img:hover {
+    filter: brightness(0.6);
+    transform: scale(1);
+    transition: all 0.5s ease;
+
+}
+
+
+
+
+
+
+.section4 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.section5{
+    margin-bottom: 30px;
+    
+}
+
+.section4 .item11{
+    margin-right: 15px;
+    position: relative;
+}
+
+.section4  .watch {
+    opacity: 0;
+    width: 330px;
+    position: absolute;
+    bottom: 90px;
+    left: 0px;
+    font-size: 2rem;
+    background-color: red;
+}
+
+.section4  .watch a{
+    color: white;
+    text-decoration: none
+}
+
+
+.section4  .watch:hover{
+    opacity: 1;
+    transition: all 1s ease;
+
+}
+
+
+.section4 .item11 .row{
+    border-top: 2px solid rgb(255, 0, 0);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.section5 .row{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+
+.section5 .leftsiddee h1{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.section5 .leftsiddee {
+    margin: 20px;
+}
+
+
+.section6 .row{
+    background-color: red;
+    padding: 30px;
+    color: white;
+}
+
+.section6 .row .data .fa-solid{
+    color: white;
+    font-size: 40px; 
+    margin-bottom: 20px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+    font-family: 'Muli', sans-serif;
+    height: 100% !important;
+    background-color: #fff !important;
+    padding: 0 !important;
+    margin: 0 !important
+}
+
+.container-fluid {
+    margin-top: 101px;
+    color: #000 !important
+}
+
+.card {
+    color: #757575 !important;
+    background-color: #fff !important;
+    align-items: center !important;
+    background: url('https://i.imgur.com/9djv5sH.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right calc(110px + (150 - 110) * ((100vw - 360px) / (1600 - 360))) bottom !important
+}
+/* 
+h2 {
+    font-size: calc(25px + (45 - 25) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h5 {
+    font-size: calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360))) !important
+} */
+
+.fa {
+    cursor: pointer;
+    font-size: 21px;
+    margin: 5px 10px 5px 10px !important
+}
+
+button {
+    font-size: calc(12px + (13 - 12) * ((100vw - 360px) / (1600 - 320))) !important;
+    padding-left: calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360))) !important;
+    padding-right: calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360))) !important;
+    padding-top: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important;
+    padding-bottom: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+input {
+    border: 2px solid green !important
+}
+
+.input-group-lg>.custom-select,
+.input-group-lg>.form-control:not(textarea) {
+    height: calc(40px + (48 - 40) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+input::-webkit-input-placeholder {
+    padding-left: 5px !important;
+    transform: translate3d(0, -4px, 0)
+}
+
+input::placeholder {
+    vertical-align: middle !important;
+    font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+input:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .items.row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .item11 {
+        width: 100%;
+        max-width: 300px; 
+        margin: 10px; 
+        text-align: center;
+    }
+}
